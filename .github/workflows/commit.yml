@@ -21,7 +21,7 @@ jobs:
       - name: test
         run: echo "Test. $(date)" >> log.txt
 
-      - name: Commit and push
+      - name: Commit then push
         run: |
           git config --global user.name "tesnetys"
           git config --global user.email "tesnetys@users.noreply.github.com"
